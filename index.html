@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+
+<body>
+    <div class="toggle-container">
+        <label class="toggle-label">Enable Dark Mode</label>
+        <label class="toggle-switch" >
+            <input type="checkbox" id="toggleCheckbox" onclick='toggle()'>
+            <span class="toggle-slider"></span>
+        </label>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="heading">Age Calculator</h1>
+            <input type="date" name="date" id="dob">
+            <button class="btn">get</button>
+            <h5 class="age"></h5>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
